@@ -1,0 +1,213 @@
+
+
+
+
+.container{
+    border: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.clearfix{
+    clear: both;
+}
+
+.logo{
+    border: none;
+    width: 15%;
+    float: left;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    font-weight: bold;
+}
+.menu ul li a{
+    color: #FF0066;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #330066;
+}
+
+
+.food-search{
+    background-image: url(../project2/imgs/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    
+}
+.food-search input[type = "search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 7px;
+}
+.bt{
+    border: none;
+    padding: 2%;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+.bt-primary{
+    background-color: #FF0066;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.bt-primary:hover{
+    color: #CCFFFF ;
+
+}
+
+
+.h2{
+    color: #003300;
+    font-size: 1.5rem;
+}
+.Categories{
+    padding: 4% 0 ;
+    border-radius: 7px;
+}
+
+.box-3{
+    border: none;
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+}
+.Food-menu{
+    background-color: LightGray;
+    padding: 4% 0;
+}
+
+.menu-food-box{
+    border: none;
+    width: 43%;
+    float: left;
+    margin:1%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 7px;
+
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.3rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 0.7rem;
+    color: LightGray;
+}
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+
+}
+.social ul li a{
+    color: #FF0066;
+    text-decoration: none;
+}
+.Footer p a{
+    color: #FF0066;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+        
+    }
+    
+}
+/**css container1**/
+.container-1{
+    border: none;
+    background-image: url(../Order/imgs/1.jpg);
+   
+    background-position: center top;
+    width: 100%;
+    margin: 2% ;
+    padding: 1%;
+   
+    
+
+}
+h1{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.SelectFood-box{
+    border: 1px solid white;
+    margin: auto;
+    width: 39%;
+    max-height: 50%;
+    padding: 1% 1% 1% 1%;
+    overflow: auto;
+    border-radius: 7px;
+     
+}
+
+h5{
+    font-size: 1.5rem;
+}
+.DeliveryDetails-box{
+    border-radius: 7px;
+    border: 1px solid white;
+    
+    margin: auto;
+    width: 35%;
+    padding: 3% 3% 3% 3%;
+}
+.de{
+    border-radius: 7px;
+    width: 80%;
+}
+.de-1{
+    width: 68%;
+    border-radius: 7px;
+}
